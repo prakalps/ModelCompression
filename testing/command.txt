@@ -1,0 +1,2 @@
+! CUDA_VISIBLE_DEVICES=0 
+! python pruning_cifar_vgg.py  data/cifar.python --dataset cifar10 --arch vgg --save_path ./logs/vgg_prune_precfg_varience4 --rate_norm 1 --rate_dist 0.2
